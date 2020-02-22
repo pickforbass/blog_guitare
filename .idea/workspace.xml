@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a6f57fb-76d1-48e4-81cd-f074efb46ae0" name="Default Changelist" comment="" />
+    <list default="true" id="0a6f57fb-76d1-48e4-81cd-f074efb46ae0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/page_structure/comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/page_structure/comments.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +39,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Gin_fuzz" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1Xw95H25E9SHnNDN0b5trIsRaj5" />
@@ -51,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -79,14 +83,23 @@
       <workItem from="1582187365967" duration="24183000" />
       <workItem from="1582352920546" duration="1435000" />
       <workItem from="1582402396778" duration="10000" />
-      <workItem from="1582402427568" duration="3483000" />
+      <workItem from="1582402427568" duration="3904000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Gin_fuzz" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="25" key="#Notifications" timestamp="1582407542303">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1582407542303" />
     <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582089283757">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -112,5 +125,9 @@
     </state>
     <state x="475" y="-629" key="NewPhpFileDialog/0.0.1366.728/-318.-1080.1920.1040@-318.-1080.1920.1040" timestamp="1582211068818" />
     <state x="564" y="316" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1582405555622" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1582407580643">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582407580643" />
   </component>
 </project>
