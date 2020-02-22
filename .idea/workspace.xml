@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a6f57fb-76d1-48e4-81cd-f074efb46ae0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Gin_fuzz" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1Xw95H25E9SHnNDN0b5trIsRaj5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\UP_TO\PHP\blog_guitare\php\pages" />
+      <recent name="C:\Users\user\Desktop\UP_TO\PHP\blog_guitare\php" />
+      <recent name="C:\Users\user\Desktop\UP_TO\PHP\blog_guitare" />
+      <recent name="C:\Users\user\Desktop\UP_TO\PHP\blog_guitare\Elements\DB" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a6f57fb-76d1-48e4-81cd-f074efb46ae0" name="Default Changelist" comment="" />
+      <created>1581946104578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581946104578</updated>
+      <workItem from="1581946106000" duration="1026000" />
+      <workItem from="1582014052344" duration="2626000" />
+      <workItem from="1582059279708" duration="823000" />
+      <workItem from="1582088709363" duration="13609000" />
+      <workItem from="1582149354753" duration="2482000" />
+      <workItem from="1582187365967" duration="24183000" />
+      <workItem from="1582352920546" duration="1435000" />
+      <workItem from="1582402396778" duration="10000" />
+      <workItem from="1582402427568" duration="3483000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582089283757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582089283757" />
+    <state x="379" y="-752" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582205456593">
+      <screen x="-318" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="379" y="-752" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-318.-1080.1920.1040@-318.-1080.1920.1040" timestamp="1582205456593" />
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582407201494">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1582407201494" />
+    <state x="462" y="108" key="FileChooserDialogImpl" timestamp="1582016101452">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="108" key="FileChooserDialogImpl/0.0.1366.728/-318.-1080.1920.1040@0.0.1366.728" timestamp="1582016101452" />
+    <state x="440" y="197" key="NewPhpClassDialog" timestamp="1582089022735">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="440" y="197" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1582089022735" />
+    <state x="564" y="316" key="NewPhpFileDialog" timestamp="1582405555622">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="475" y="-629" key="NewPhpFileDialog/0.0.1366.728/-318.-1080.1920.1040@-318.-1080.1920.1040" timestamp="1582211068818" />
+    <state x="564" y="316" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1582405555622" />
+  </component>
+</project>

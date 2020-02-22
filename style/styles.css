@@ -1,0 +1,81 @@
+html
+{
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    font-size: 12px;
+}
+a
+{
+    text-decoration: none;
+    color : black;
+}
+
+header
+{
+    height: 150px;
+    color: white;
+    background-color: #823912;
+    background: linear-gradient(90deg,  #040301 0%, #823912 36%,#f8e7b1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#040301', endColorstr='#f8e7b1',GradientType=1 );
+    margin: 0;
+    padding: 10px;
+    line-height: 4em;
+}
+
+section
+{
+    margin: 45px auto 0 auto;
+
+}
+
+.articles{
+    margin-bottom: 20px;
+    width: 90%
+}
+
+.icon-art{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+.preview{
+    display: inline-block;
+    width: 70%;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+p{
+    margin: 0 0 10px 0;
+    line-height: 1em;
+
+}
+
+.main_pic{
+    height: 40px;
+}
+
+#loginarea
+{
+    text-align: right;
+    position: absolute;
+    top : 10px;
+    right: 10px;
+}
+
+.article_pic{
+    width: 25%;
+    display: inline-block;
+    margin: 15px 5px;
+}
+.article_content{
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+h2{
+    margin: 20px 0 0 15px;
+}
