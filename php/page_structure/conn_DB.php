@@ -4,7 +4,6 @@ $server = 'localhost';
 $username = 'root';
 $pwd = '';
 $dbn = 'gin_fuzz';
-$charset = "utf8";
 
 $conn = new mysqli ($server, $username, $pwd);
 

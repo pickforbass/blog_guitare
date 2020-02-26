@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 
 require "../page_structure/conn_DB.php";
@@ -7,7 +6,13 @@ require "../page_structure/header.php";
 global $conn;
 $res = $conn->query("SELECT * FROM `article` WHERE 1");?>
 <section>
-<?php while ($row = $res->fetch_assoc()){
+
+
+<?php
+
+echo "session ".$_SESSION['id'];
+
+while ($row = $res->fetch_assoc()){
     ?>
     <a href="article.php?id=<?= $row['article_id'] ?>">
         <div class="articles">
@@ -23,5 +28,6 @@ $res = $conn->query("SELECT * FROM `article` WHERE 1");?>
 <?php }; ?>
 </section>
 
-<?php include "../page_structure/footer.php";
+<?php
+include "../page_structure/footer.php";
 ?>

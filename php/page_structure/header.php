@@ -3,19 +3,6 @@
 require"conn_DB.php";
 global $conn;
 
-if (isset ($_SESSION['username'])){
-    if (isset($_POST['username'])){
-        $_SESSION['username'] = $_POST['username'];
-    }
-}
-
-if (isset($_POST['password'])){
-    $pw = $_POST['password'];
-
-}
-$testlogin = $conn->query("SELECT * FROM `user` WHERE 1");
-
-
 ?>
 
 <!DOCTYPE html>
@@ -30,10 +17,10 @@ $testlogin = $conn->query("SELECT * FROM `user` WHERE 1");
 <body>
 
 <header>
-    <h1>Gin Fuzz &</br> Mojito-verdrive</h1>
+    <a href="php/pages/index.php" id="maintitle"><h1>Gin Fuzz &</br> Mojito-verdrive</h1></a>
 
     <?php
-    if (!isset($SESSION['username'])){
+    if (empty($SESSION['id'])){
         include "login_area.php";
     }
     ?>
