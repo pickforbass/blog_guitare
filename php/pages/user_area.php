@@ -1,7 +1,11 @@
 <?php
 session_start();
+$id = $_SESSION['id'];
 include '../page_structure/header.php';
 include '../page_structure/conn_DB.php';
+
+$list = "SELECT article_title, article_id FROM article WHERE 1";
+$res = $conn->query($list);
 
 ?>
 
@@ -10,10 +14,6 @@ include '../page_structure/conn_DB.php';
         <?php if($_SESSION['rank']==1){
             ?>
             <li><p class="menu_item" id="create">Ecrire un article</p></li>
-        <?php } ?>
-        <?php if($_SESSION['rank'] <= 2){
-            ?>
-            <li><p class="menu_item" id="moderate">Gérer les commentaires</p></li>
         <?php } ?>
         <li><p class="menu_item" id="list">Liste des articles<p class="menu_item"></p></li>
         <li><p class="menu_item" id="my-comms">Mes commentaires</p></li>
@@ -28,57 +28,30 @@ include '../page_structure/conn_DB.php';
             <p><label for="art_title">Titre </label><input type="text" id="art_title" name="art_title"></p>
             <p><label for="art_incipit">Incipit </label><input type="textarea" id="art_incipit" name ="art_incipit"></p>
             <p><label for="art_content">Contenu </label><input type="textarea" id="art_content" name ="art_content"></p>
-<!--            <p><label for="art_img">Image </label><input type="art_img"></p>-->
             <input type = "submit">
         </form>
 
     </div>
 
 
-    <div id="c-list" class="hide">
+    <div id="c-list">
 
-        <form action="#" method="get">
+        <form action="#" method="post">
             <select name="articlelist" id="articlelist">
-                <option value="1">Article 1</option>
-                <option value="2">Article 2</option>
+                <?php
+                while($row = $res->fetch_assoc()){?>
+                <option value="<?= $row['article_id']?>"><?= $row['article_title'] ?></option>
+                ?>
+                <?php } ?>
             </select>
             <select name="action" id="action">
-                <option value="DELETE">Effacer</option>
-                <option value="DELETE">Modifier</option>
+                <option type="submit" value="delete">Effacer</option>
+                <option type="submit" value="update">Modifier</option>
             </select>
             <input type="submit">
         </form>
-        <form action="#" method="get">
-            <label for="art_title">Titre </label><input type="text" id="art_title">
-            <label for="art_content">Titre </label><input type="art_content">
-            <input type="text">
-            <input type = "submit">
-        </form>
 
     </div>
-
-
-    <div id="c-moderate" class="hide">
-        <form action="#" method="get">
-            <select name="articlelist" id="articlelist">
-                <option value="1">Article 1</option>
-                <option value="2">Article 2</option>
-            </select>
-            <input type = "submit">
-        </form>
-        <div class="comment">
-            <div class="esb">
-                <div class="author">Auteur</div>
-                <div class="comment-date">TS</div>
-            </div>
-
-            <div class="cont">
-                Contenu
-            </div>
-
-        </div>
-    </div>
-
 
     <div id="c-my-comms" class="hide">
         <div class="comment">
@@ -106,13 +79,10 @@ include '../page_structure/conn_DB.php';
 if (isset($_POST['art_title']) || isset($_POST['art_content']))
 {
     $title = $_POST['art_title'];
-    echo $title;
     $incipit = $_POST['art_incipit'];
     $content =  $_POST['art_content'];
     $timestamp = date('Y-m-d H:i:s', time());
     $pic = 'ratV2.jpg';
-    $id = $_SESSION['id'];
-    echo $timestamp;
     $insert = "INSERT INTO article VALUES
                 (NULL,
                 '$title',
@@ -121,9 +91,50 @@ if (isset($_POST['art_title']) || isset($_POST['art_content']))
                 '$pic',
                 '$timestamp',
                 '$id')";
-    echo$insert;
-
     if($conn->query($insert)){
         echo "L'article a bien été envoyé.";
     }
-} ?>
+}
+
+// Update Articles
+
+if (isset($_POST['articlelist']))
+{
+    $art_id = $_POST['articlelist'];
+    $action = $_POST['action'];
+
+    switch ($action){
+
+        case"delete":
+            $delete = "DELETE FROM article WHERE article_id=$art_id";
+            $conn->query($delete);
+            break;
+
+        case"update": ?>
+            <form action="#" method="post">
+                <label for="art_title">Titre </label><input type="text" id="art_title" name="newtitle">
+                <label for="art_content">Titre </label><input type="art_content" name="newcontent">
+                <input type = "submit" value="Modifier">
+            </form>
+            <?php
+            if (isset($_POST['newtitle'])){
+                $newtitle = $_POST['newtitle'];
+                $newcontent = $_POST['newcontent'];
+                $update = "UPDATE `article`
+                    SET 
+                        article_title = $newtitle,
+                        article_content = $newcontent,
+                        user_user_id = $id,
+                    WHERE
+                        article_id = $art_id";
+
+                $conn->query($update);
+            }
+            break;
+    }
+}
+
+
+
+
+?>

@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a6f57fb-76d1-48e4-81cd-f074efb46ae0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elements/modus_operandi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/DB_struc.mwb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/DB_struc.mwb.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elements/Brief.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Elements/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Elements/notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sans titre-1.indd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/page_structure/comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/page_structure/comments.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/page_structure/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/page_structure/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/page_structure/login_area.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/page_structure/login_area.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/pages/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/pages/article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/pages/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/pages/user_area.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/pages/user_area.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styles.css" afterDir="false" />
@@ -59,7 +65,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -98,7 +104,7 @@
       <workItem from="1582532010934" duration="16270000" />
       <workItem from="1582619025149" duration="757000" />
       <workItem from="1582707648523" duration="15065000" />
-      <workItem from="1582781908994" duration="10471000" />
+      <workItem from="1582781908994" duration="25833000" />
     </task>
     <task id="LOCAL-00001" summary="26/02 - 17h00 &#10;&#10;User login ok&#10;Creating new users OK&#10;&#10;-- TO DO -- &#10;Fix bug on comments displayed (last one for now)&#10;Send Comment on DB&#10;Set User space.">
       <created>1582732760790</created>
@@ -107,11 +113,29 @@
       <option name="project" value="LOCAL" />
       <updated>1582732760790</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="26/02 - 17h00 &#10;&#10;User login ok&#10;Creating new users OK&#10;&#10;-- TO DO -- &#10;Fix bug on comments displayed (last one for now)&#10;Send Comment on DB&#10;Set User space.">
+      <created>1582868759300</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582868759300</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -121,14 +145,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="26/02 - 17h00 &#10;&#10;User login ok&#10;Creating new users OK&#10;&#10;-- TO DO -- &#10;Fix bug on comments displayed (last one for now)&#10;Send Comment on DB&#10;Set User space." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="25" key="#Deployment" timestamp="1582408662461">
+    <state x="275" y="25" key="#Deployment" timestamp="1582896943001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="25" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1582408662461" />
+    <state x="275" y="25" key="#Deployment/0.0.1366.728/-318.-1080.1920.1040@0.0.1366.728" timestamp="1582896943001" />
+    <state x="275" y="25" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1582870352140" />
     <state x="275" y="25" key="#Notifications" timestamp="1582407542303">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="25" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1582407542303" />
+    <state x="275" y="25" key="#Options" timestamp="1582869359893">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#Options/0.0.1366.728@0.0.1366.728" timestamp="1582869359893" />
     <state x="274" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582868717595">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -141,14 +170,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1582407201494" />
-    <state x="278" y="-963" key="CommitChangelistDialog2" timestamp="1582732759426">
-      <screen x="-318" y="-1080" width="1920" height="1040" />
+    <state x="424" y="0" key="CommitChangelistDialog2" timestamp="1582868758050">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="278" y="-963" key="CommitChangelistDialog2/0.0.1366.728/-318.-1080.1920.1040@-318.-1080.1920.1040" timestamp="1582732759426" />
-    <state x="462" y="108" key="FileChooserDialogImpl" timestamp="1582016101452">
+    <state x="424" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582868758050" />
+    <state x="462" y="108" key="FileChooserDialogImpl" timestamp="1582869024189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="108" key="FileChooserDialogImpl/0.0.1366.728/-318.-1080.1920.1040@0.0.1366.728" timestamp="1582016101452" />
+    <state x="462" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582869024189" />
     <state x="440" y="197" key="NewPhpClassDialog" timestamp="1582089022735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -166,13 +197,21 @@
       <screen x="-318" y="-1080" width="1920" height="1040" />
     </state>
     <state x="234" y="-824" key="Vcs.Push.Dialog.v2/0.0.1366.728/-318.-1080.1920.1040@-318.-1080.1920.1040" timestamp="1582732779612" />
-    <state x="298" y="-299" key="run.anything.popup" timestamp="1582709316655">
+    <state x="567" y="100" key="ftp.server.browser" timestamp="1582869686648">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="567" y="100" key="ftp.server.browser/0.0.1366.728@0.0.1366.728" timestamp="1582869686648" />
+    <state x="298" y="-299" key="run.anything.popup" timestamp="1582902294241">
       <screen x="-318" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="298" y="-299" key="run.anything.popup/0.0.1366.728/-318.-1080.1920.1040@-318.-1080.1920.1040" timestamp="1582709316655" />
+    <state x="298" y="-299" key="run.anything.popup/0.0.1366.728/-318.-1080.1920.1040@-318.-1080.1920.1040" timestamp="1582902294241" />
     <state x="305" y="-855" width="672" height="678" key="search.everywhere.popup" timestamp="1582799831586">
       <screen x="-318" y="-1080" width="1920" height="1040" />
     </state>
     <state x="305" y="-855" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-318.-1080.1920.1040@-318.-1080.1920.1040" timestamp="1582799831586" />
+    <state x="487" y="134" key="webDeployment.PermissionsDialog.Tabs" timestamp="1582869559192">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="487" y="134" key="webDeployment.PermissionsDialog.Tabs/0.0.1366.728@0.0.1366.728" timestamp="1582869559192" />
   </component>
 </project>

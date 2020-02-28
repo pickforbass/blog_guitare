@@ -1,6 +1,6 @@
 #Notes
 
-##id et mdp
+## id et mdp
 
 
 + Admin = admin
@@ -8,11 +8,7 @@
 + User = user
 
 
-## à faire
+## A faire
 
-Mettre les commentaires en boucle + gérer la possibilité de virer
-les commentaires pour les modos et admins
 Gérer les options de l'espace user
-Créer les requêtes correspondantes
-Faire un peu de CSS pour finir.
  

@@ -1,12 +1,14 @@
 <?php
+session_start();
+$uid= $_SESSION['id'];
 require "../page_structure/header.php";
 require "../page_structure/conn_DB.php";
-global $conn;
+
 $id= $_GET['id'];
+$select = "SELECT * FROM article WHERE article_id = $id";
+$selres =$conn->query($select);
+$row = $selres->fetch_assoc();
 
-$res =$conn->query("SELECT * FROM article WHERE article_id = $id");
-
-$row = $res->fetch_assoc();
 ?>
 
 <h2>
@@ -20,14 +22,9 @@ $row = $res->fetch_assoc();
     </p>
 </div>
 
-<form action="#" method="post" id="commentzone"<?php
-if(!isset($_SESSION['user_id'])){
-    echo "style: display=none;";
-}
-?>
->
-    <p><label for="comment">Ton avis ? </label></p>
-    <input type="textearea" id="comment">
+<form action="#" method="post" id="commentzone" <?php if(!isset($_SESSION['id'])){echo "style: display=none;";}?> >
+
+    <input type="textearea" id="comment" name="comment" placeholder="Ton avis">
     <input type="submit">
 
 </form>
@@ -35,9 +32,23 @@ if(!isset($_SESSION['user_id'])){
 <section class="comments">
 <?php
 include "../page_structure/comments.php";
-//print_r($row);
 ?>
 </section>
+
+<?php
+
+if (isset($_POST['comment'])){
+    $comment = $_POST['comment'];
+    $ts = date('Y-m-d H:i:s', time());
+    $insert = "INSERT INTO comment VALUES (NULL,
+        '$comment',
+        '$ts',
+        '$uid',
+        '$id')";
+    $conn->query($insert);
+}
+
+
 
 
 

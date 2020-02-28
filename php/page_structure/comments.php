@@ -7,9 +7,7 @@ FROM comment as c
     WHERE c.article_article_id = $id";
 $res = $conn->query($sql);
 
-$crg = $res->fetch_assoc();
-
-while ($row = $res->fetch_assoc()){
+while($row = $res->fetch_assoc()){
     $date = date('d-m-Y', strtotime($row['comment_timestamp']));
     ?>
 <div class="comment">
@@ -26,16 +24,4 @@ while ($row = $res->fetch_assoc()){
   <?php
 }
 ?>
-</section>
-<!--<div class="comment">-->
-<!--    <div class="esb">-->
-<!--        <div class="author">Auteur</div>-->
-<!--        <div class="comment-date">Date</div>-->
-<!--    </div>-->
-<!---->
-<!--    <div class="cont">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam asperiores corporis-->
-<!--        distinctio dolore dolores eos et facilis, id illo incidunt iste itaque, molestiae nisi officiis-->
-<!--        perferendis quibusdam ratione recusandae.-->
-<!--    </div>-->
-<!---->
-<!--</div>-->
+

@@ -28,6 +28,10 @@ section
 
 }
 
+img{
+    display: block;
+}
+
 .articles
 {
     margin-bottom: 20px;

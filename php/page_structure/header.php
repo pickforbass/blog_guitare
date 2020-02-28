@@ -17,7 +17,7 @@ global $conn;
 <body>
 
 <header>
-    <a href="php/pages/index.php" id="maintitle"><h1>Gin Fuzz &</br> Mojito-verdrive</h1></a>
+    <a href="../pages/index.php" id="maintitle"><h1>Gin Fuzz &</br> Mojito-verdrive</h1></a>
 
     <?php
     if (empty($_SESSION['id'])){
