@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a6f57fb-76d1-48e4-81cd-f074efb46ae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Elements/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/pages/user_area.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/page_structure/comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/page_structure/comments.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/page_structure/conn_DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/page_structure/conn_DB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elements/modus_operandi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elements/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Elements/notes.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/page_structure/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/page_structure/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/page_structure/login_area.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/page_structure/login_area.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/pages/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/pages/article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/pages/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/pages/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/pages/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/pages/newuser.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/pages/newuser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/pages/user_area.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/pages/user_area.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +59,12 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -97,8 +97,17 @@
       <workItem from="1582402427568" duration="5054000" />
       <workItem from="1582532010934" duration="16270000" />
       <workItem from="1582619025149" duration="757000" />
-      <workItem from="1582707648523" duration="14753000" />
+      <workItem from="1582707648523" duration="15065000" />
+      <workItem from="1582781908994" duration="10471000" />
     </task>
+    <task id="LOCAL-00001" summary="26/02 - 17h00 &#10;&#10;User login ok&#10;Creating new users OK&#10;&#10;-- TO DO -- &#10;Fix bug on comments displayed (last one for now)&#10;Send Comment on DB&#10;Set User space.">
+      <created>1582732760790</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582732760790</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +117,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Gin_fuzz" />
     </ignored-roots>
+    <MESSAGE value="26/02 - 17h00 &#10;&#10;User login ok&#10;Creating new users OK&#10;&#10;-- TO DO -- &#10;Fix bug on comments displayed (last one for now)&#10;Send Comment on DB&#10;Set User space." />
+    <option name="LAST_COMMIT_MESSAGE" value="26/02 - 17h00 &#10;&#10;User login ok&#10;Creating new users OK&#10;&#10;-- TO DO -- &#10;Fix bug on comments displayed (last one for now)&#10;Send Comment on DB&#10;Set User space." />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#Deployment" timestamp="1582408662461">
@@ -118,10 +129,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="25" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1582407542303" />
-    <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582089283757">
+    <state x="274" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582868717595">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582089283757" />
+    <state x="274" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582868717595" />
     <state x="379" y="-752" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582205456593">
       <screen x="-318" y="-1080" width="1920" height="1040" />
     </state>
@@ -130,6 +141,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1582407201494" />
+    <state x="278" y="-963" key="CommitChangelistDialog2" timestamp="1582732759426">
+      <screen x="-318" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="278" y="-963" key="CommitChangelistDialog2/0.0.1366.728/-318.-1080.1920.1040@-318.-1080.1920.1040" timestamp="1582732759426" />
     <state x="462" y="108" key="FileChooserDialogImpl" timestamp="1582016101452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -147,9 +162,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582407580643" />
+    <state x="234" y="-824" key="Vcs.Push.Dialog.v2" timestamp="1582732779612">
+      <screen x="-318" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="234" y="-824" key="Vcs.Push.Dialog.v2/0.0.1366.728/-318.-1080.1920.1040@-318.-1080.1920.1040" timestamp="1582732779612" />
     <state x="298" y="-299" key="run.anything.popup" timestamp="1582709316655">
       <screen x="-318" y="-1080" width="1920" height="1040" />
     </state>
     <state x="298" y="-299" key="run.anything.popup/0.0.1366.728/-318.-1080.1920.1040@-318.-1080.1920.1040" timestamp="1582709316655" />
+    <state x="305" y="-855" width="672" height="678" key="search.everywhere.popup" timestamp="1582799831586">
+      <screen x="-318" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="305" y="-855" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-318.-1080.1920.1040@-318.-1080.1920.1040" timestamp="1582799831586" />
   </component>
 </project>

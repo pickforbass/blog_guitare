@@ -1,27 +1,22 @@
 <?php
+session_start();
 include '../page_structure/header.php';
 include '../page_structure/conn_DB.php';
 
 ?>
 
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-
 <menu id="user-options">
     <ul>
-        <li id="create">Ecrire un article</li>
-        <li id="list">Liste des articles</li>
-        <li id="moderate">Gérer les commentaires</li>
-        <li id="my-comms">Mes commentaires</li>
-        <li id = 'logout'>Déconnexion</li>
+        <?php if($_SESSION['rank']==1){
+            ?>
+            <li><p class="menu_item" id="create">Ecrire un article</p></li>
+        <?php } ?>
+        <?php if($_SESSION['rank'] <= 2){
+            ?>
+            <li><p class="menu_item" id="moderate">Gérer les commentaires</p></li>
+        <?php } ?>
+        <li><p class="menu_item" id="list">Liste des articles<p class="menu_item"></p></li>
+        <li><p class="menu_item" id="my-comms">Mes commentaires</p></li>
     </ul>
 </menu>
 
@@ -29,10 +24,11 @@ include '../page_structure/conn_DB.php';
 
     <div id="c-create" class="hide">
 
-        <form action="#" method="get">
-            <p><label for="art_title">Titre </label><input type="text" id="art_title"></p>
-            <p><label for="art_content">Contenu </label><input type="art_content"></p>
-            <p><label for="art_img">Image </label><input type="art_img"></p>
+        <form action="#" method="post">
+            <p><label for="art_title">Titre </label><input type="text" id="art_title" name="art_title"></p>
+            <p><label for="art_incipit">Incipit </label><input type="textarea" id="art_incipit" name ="art_incipit"></p>
+            <p><label for="art_content">Contenu </label><input type="textarea" id="art_content" name ="art_content"></p>
+<!--            <p><label for="art_img">Image </label><input type="art_img"></p>-->
             <input type = "submit">
         </form>
 
@@ -103,3 +99,31 @@ include '../page_structure/conn_DB.php';
 <script src="../../JS/app.js"></script>
 </body>
 </html>
+
+<?php
+// --- Send new article
+
+if (isset($_POST['art_title']) || isset($_POST['art_content']))
+{
+    $title = $_POST['art_title'];
+    echo $title;
+    $incipit = $_POST['art_incipit'];
+    $content =  $_POST['art_content'];
+    $timestamp = date('Y-m-d H:i:s', time());
+    $pic = 'ratV2.jpg';
+    $id = $_SESSION['id'];
+    echo $timestamp;
+    $insert = "INSERT INTO article VALUES
+                (NULL,
+                '$title',
+                '$incipit',
+                '$content',
+                '$pic',
+                '$timestamp',
+                '$id')";
+    echo$insert;
+
+    if($conn->query($insert)){
+        echo "L'article a bien été envoyé.";
+    }
+} ?>

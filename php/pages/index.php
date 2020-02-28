@@ -10,8 +10,6 @@ $res = $conn->query("SELECT * FROM `article` WHERE 1");?>
 
 <?php
 
-echo "session ".$_SESSION['id'];
-
 while ($row = $res->fetch_assoc()){
     ?>
     <a href="article.php?id=<?= $row['article_id'] ?>">

@@ -28,35 +28,40 @@ section
 
 }
 
-.articles{
+.articles
+{
     margin-bottom: 20px;
     width: 90%
 }
 
-.icon-art{
+.icon-art
+{
     display: inline-block;
     width: 25%;
     vertical-align: top;
 }
 
-.preview{
+.preview
+{
     display: inline-block;
     width: 70%;
     margin-left: 10px;
     vertical-align: middle;
 }
 
-p{
+p
+{
     margin: 0 0 10px 0;
     line-height: 1em;
 }
 
-.main_pic{
+.main_pic
+{
     height: 40px;
 }
 
 
-#loginarea
+#userarea
 {
     text-align: right;
     position: absolute;
@@ -64,12 +69,15 @@ p{
     right: 10px;
 }
 
-.article_pic{
+.article_pic
+{
     width: 25%;
     display: inline-block;
     margin: 15px 5px;
 }
-.article_content{
+
+.article_content
+{
     display: inline-block;
     width: 90%;
     vertical-align: top;
@@ -77,13 +85,16 @@ p{
     line-height: 2.2em;
 }
 
-h2{
+h2
+{
     margin: 20px 0 0 15px;
 }
 
-.comments{
+.comments
+{
     background: #e5e5e5;
 }
+
 .comment{
     margin: 15px auto 5px auto;
     padding: 5px;
@@ -91,13 +102,16 @@ h2{
     line-height: 1.5em;
 }
 
-.cont{
+.cont
+{
     background: white;
     width : 80%;
     display: inline-block;
     padding-left: 2px;
 }
-.esb{
+
+.esb
+{
     display: inline-block;
     width: 15%;
     vertical-align: top;
@@ -105,45 +119,72 @@ h2{
     min-height: 40px;
 }
 
-
-#user-options{
+#user-options
+{
     vertical-align: middle;
     margin: 0;
     background: #040301;
     color: white;
-    height: 40px;
+    height: 50px;
 }
 
-#container{
+#container
+{
     width: 80%;
     margin : 10px auto 0 auto;
 }
-ul{
+
+ul
+{
     display: flex;
     vertical-align: middle;
     justify-content: space-between;
-    margin: 0;
+    width: 80%;
+    margin: 0 auto 3px auto;
+    padding: 3px 0 3px 0;
 }
 
-li{
+li
+{
     display: inline-block;
-    width: auto;
     list-style-type: none;
+    width: 20%;
+    margin: 5px 0 5px 0;
+    padding: 5px 0 5px 0;
+    vertical-align: middle;
+    border-left: 1px white solid;
+    border-right: 1px white solid;
 }
 
-.hide{
+.hide
+{
     display: none;
 }
 
-textarea{
+input[type=textarea]
+{
     width: 60%;
     height: 40px;
 }
 
-#commentzone {
+label
+{
+    width: 40px;
+}
+
+#commentzone
+{
     border-top: #040301 1px solid;
     margin: 0 auto 0 auto;
     padding: 20px;
     width: 80%;
 }
+
+.menu_item
+{
+    display: inherit;
+    text-align: center;
+    vertical-align: middle;
+}
+
 
